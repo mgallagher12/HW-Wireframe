@@ -4,15 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>About | Matt Gallagher</title>
-    <!-- Reset CSS File -->
-    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <title>Contact | Matt Gallagher</title>
 
-    <!-- My Stylesheet -->
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 <body>
-  <header id="masthead">
+    <header id="masthead">
     <div class="container">
       <a href="index.html" id="logo">Matt Gallagher</a>
       <nav>
@@ -25,15 +23,26 @@
 
   <div id="main-container" class="container">
     <section class="main-section">
-      <h1>About Me</h1>
+      <h1>Contact</h1>
 
-      <img src="assets/images/Headshot.png" class="auth-image" alt="Matt Gallagher">
+      <form id="contact-form">
+        <ul>
+          <li>
+            <label for="name">Matt Gallagher</label>
+            <input type="text" id="name" name="name" placeholder="Matt Gallagher" required="required">
+          </li>
+          <li>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="gallagherwebdev@gmail.com" required="required">
+          </li>
+          <li>
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required="required"></textarea>
+          </li>
+        </ul>
+        <input type="submit">
+      </form>
 
-      <p>After majoring in Finance and Real Estate and Florida State University, Matt Gallagher landed a job with CBRE, Inc. in Chicago.  Working as a Commercial Real Estate Appraiser for three years, Matt gained invaluable experience providing valuation and advisory on institutional-grade office towers throughout the Midwest.</p>
-
-      <p>Most recently, Matt accepted a job with Hines Interests; where he works as an Analyst on their Multifamily Development team.  His responsibilities include underwriting of potential developments, market analysis, and asset management of current developments under ownership.</p>
-
-      <p>In his free time, Matt enjoys traveling, coding, and anything involving sports - specifically Florida State football.</p>
     </section>
 
     <section class="sidebar">
@@ -52,6 +61,5 @@
       Copyright &copy; 2017 Matt Gallagher
     </div>
   </footer>
-  
- </body>
+</body>
 </html>
